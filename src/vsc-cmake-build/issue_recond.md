@@ -9,7 +9,13 @@
     mkdir build
     cd build
     cmake -G "MinGW Makefiles" ..
-    make
+    mingw32-make    
 
 6. task.json 每条命令都是自己单独起的一个终端执行一条命令， 不是好几个命令在同一个终端连续执行
+    解决方法：可以写一个脚本， 将所有要执行的操作，用一条命令执行
+
+首先 Ctrl+Shift+P 调出快捷输入窗。
+
+7 . - Building for: Visual Studio 17 2022    // 如何改换其他编译套件
+
 
