@@ -32,6 +32,6 @@
 *.app
 
 
-# 
-build/
+#  build目录保留，build目录下的所有内容不保留
+build/*
 

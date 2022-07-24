@@ -6,6 +6,7 @@
 	],
 	"settings": 
 	{
+		// "cmake.generator": {"MinGW Makefiles"},
 		"files.associations": {
 			"array": "cpp",
 			"atomic": "cpp",

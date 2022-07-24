@@ -1,7 +1,7 @@
 {
     "version": "2.0.0",
     "options": {
-        "cwd": "${workspaceFolder}/build/"
+        "cwd": "${workspaceFolder}/build"
     },
 
     "tasks": [
@@ -10,7 +10,11 @@
             "type": "shell",
             "command": "cmake",
             "args": [
-                ".."
+               // "-DCMAKE_C_COMPILER=D:\\software\\develop\\Mingw\\bin\\gcc.exe",
+              //  "-DCMAKE_CXX_COMPILER=D:\\software\\develop\\Mingw\\bin\\g++.exe",
+              // "-G",
+              // "\"MinGW Makefiles\"",
+              ".."
             ]
         },
         {
